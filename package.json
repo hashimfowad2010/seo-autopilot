@@ -1,0 +1,40 @@
+{
+  "name": "seo-autopilot",
+  "version": "0.1.0",
+  "description": "Audit, fix and register a website with Google Search Console, Bing and IndexNow from one command.",
+  "keywords": [
+    "seo",
+    "google-search-console",
+    "sitemap",
+    "indexnow",
+    "github-pages",
+    "cli"
+  ],
+  "author": "hashimfowad2010",
+  "license": "MIT",
+  "homepage": "https://github.com/hashimfowad2010/seo-autopilot#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hashimfowad2010/seo-autopilot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hashimfowad2010/seo-autopilot/issues"
+  },
+  "type": "module",
+  "bin": {
+    "seo-autopilot": "bin/seo-autopilot.js"
+  },
+  "files": [
+    "bin",
+    "src"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20.18.1"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0"
+  }
+}

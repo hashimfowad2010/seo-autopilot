@@ -1,0 +1,2 @@
+# LF everywhere so the CLI's #!/usr/bin/env node line works on macOS/Linux.
+* text=auto eol=lf
